@@ -32,7 +32,7 @@ password: your_password
 Usage
 
 To run the LinkedIn job crawler, execute the following command:
-python crawler.py```
+crawler.py
 
 
 
