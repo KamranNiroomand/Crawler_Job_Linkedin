@@ -14,7 +14,7 @@ Before running the script, make sure you have the following dependencies install
 - yaml
 
 You can install the required dependencies using pip:
-
+pip install selenium beautifulsoup4 pandas tqdm pyyaml
 
 ## Setup
 
