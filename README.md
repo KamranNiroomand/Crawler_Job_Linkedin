@@ -19,6 +19,18 @@ pip install selenium beautifulsoup4 pandas tqdm pyyaml
 ## Setup
 
 1. Clone the GitHub repository: git clone https://github.com/KamranNiroomand/linkedin-job-crawler.git
+2. Navigate to the project directory:
+cd linkedin-job-crawler
+
+3. Install the required dependencies as mentioned in the "Prerequisites" section.
+
+4. Create a YAML configuration file named `config.yaml` in the project directory and add your LinkedIn login credentials:
+
+```yaml
+username: your_username
+password: your_password
+
+
 
 
 
