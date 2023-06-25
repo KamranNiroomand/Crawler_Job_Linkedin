@@ -18,7 +18,7 @@ You can install the required dependencies using pip:
 
 ## Setup
 
-1. Clone the GitHub repository:
+1. Clone the GitHub repository: git clone https://github.com/KamranNiroomand/linkedin-job-crawler.git
 
 
 
