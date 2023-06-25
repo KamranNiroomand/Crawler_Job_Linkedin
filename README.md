@@ -32,8 +32,7 @@ password: your_password
 Usage
 
 To run the LinkedIn job crawler, execute the following command:
-python crawler.py
-""
+python crawler.py```
 The script will open a Chrome browser window and automate the login process using the provided credentials. It will then navigate to the specified job search URL on LinkedIn.
 
 By default, the script is set to scrape job postings for the "machine learning engineer" keyword. You can modify the URL in the code to search for other job titles or customize the search criteria.
