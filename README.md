@@ -15,3 +15,10 @@ Before running the script, make sure you have the following dependencies install
 
 You can install the required dependencies using pip:
 
+
+## Setup
+
+1. Clone the GitHub repository:
+
+
+
