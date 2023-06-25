@@ -33,7 +33,14 @@ Usage
 
 To run the LinkedIn job crawler, execute the following command:
 python crawler.py
+""
+The script will open a Chrome browser window and automate the login process using the provided credentials. It will then navigate to the specified job search URL on LinkedIn.
 
+By default, the script is set to scrape job postings for the "machine learning engineer" keyword. You can modify the URL in the code to search for other job titles or customize the search criteria.
+
+The crawler will collect the job links from multiple pages of search results and store them in a list. After collecting the links, it will visit each job page and extract relevant information such as job title, company name, location, work method, post date, work time, and job description.
+
+The scraped data will be saved to an Excel file named jobs.xlsx located in the ../data/ directory relative to the project directory. If the file already exists, it will be overwritten.
 
 
 
