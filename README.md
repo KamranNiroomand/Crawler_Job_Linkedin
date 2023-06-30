@@ -11,10 +11,10 @@ Before running the script, make sure you have the following dependencies install
 - BeautifulSoup
 - pandas
 - tqdm
-- yaml
+
 
 You can install the required dependencies using pip:
-pip install selenium beautifulsoup4 pandas tqdm pyyaml
+pip install selenium beautifulsoup4 pandas tqdm 
 
 ## Setup
 
@@ -23,13 +23,6 @@ pip install selenium beautifulsoup4 pandas tqdm pyyaml
 cd linkedin-job-crawler
 
 3. Install the required dependencies as mentioned in the "Prerequisites" section.
-
-4. Create a YAML configuration file named `config.yaml` in the project directory and add your LinkedIn login credentials:
-
-```yaml
-username: your_username
-password: your_password
-Usage
 
 To run the LinkedIn job crawler, execute the following command:
 crawler.py
